@@ -1,3 +1,7 @@
+.srm-header.menu-active {
+  padding-left: 220px;
+}
+
 .srm-header {
     display: block;
     width: 100%;
@@ -6,7 +10,8 @@
 }
 
 .srm-header-container {
-  padding: 20px;
+  height: 70px;
+  padding: 10px 20px 0;
   overflow: hidden;
 }
 
@@ -14,17 +19,7 @@
 
 .srm-header-actions { float: right; }
 
-.srm-select {
-  background: url('../../assets/arrow.png') no-repeat 96%;
-  -webkit-appearance: none;
-  padding: 15px 30px 15px 15px;
-  margin-left: 10px;
-}
-
-.srm-select-vision {
-    border: 2px solid #a2cbe8;
-    padding: 11px 30px 13px 13px;
-}
+.header-title { color: #787a7a; }
 
 .login-container {
   display: inline-block;
@@ -61,16 +56,18 @@
 }
 
 .qty-alert {
-    width: 15px;
-    height: 15px;
+    width: 18px;
+    height: 18px;
     display: block;
     position: absolute;
     top: -8px;
-    right: -6px;
+    right: -10px;
     background: red;
     color: #fff;
     font-size: 12px;
     border-radius: 50px;
     text-align: center;
+    padding: 3px;
+    -webkit-box-shadow: 1px 1px 1px 0px #10101047;
     box-shadow: 1px 1px 1px 0px #10101047;
 }

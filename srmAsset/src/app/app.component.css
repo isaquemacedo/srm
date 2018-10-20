@@ -1,3 +1,13 @@
-body {
-  background-color: red;
+.container.menu-active {
+  padding-left: 220px;
+}
+
+.container {
+  width: 100%;
+  position: absolute;
+  background-color: #ecedee;
+}
+
+.content {
+  padding: 20px;
 }

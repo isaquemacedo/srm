@@ -1,13 +1,15 @@
 <div class="wrapper">
-
-  <srm-menu class="srm-structure"></srm-menu>
-  <srm-header class="srm-structure"></srm-header>
+  <srm-header></srm-header>
 
   <div class="content-wrapper">
-    <div class="container">
+    <srm-menu></srm-menu>
 
-      <router-outlet></router-outlet>
+    <div class="container menu-active">
 
+      <div class="content">
+        <router-outlet></router-outlet>
+      </div>
+      
     </div>
   </div>
 

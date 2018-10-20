@@ -7,13 +7,15 @@ import { ROUTES } from './app.routes';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
+import { ManagementComponent } from './management/management.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MenuComponent
+    MenuComponent,
+    ManagementComponent
   ],
   imports: [
     BrowserModule,
