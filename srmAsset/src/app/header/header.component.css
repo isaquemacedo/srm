@@ -1,0 +1,76 @@
+.srm-header {
+    display: block;
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+
+.srm-header-container {
+  padding: 20px;
+  overflow: hidden;
+}
+
+.logo { float: left; }
+
+.srm-header-actions { float: right; }
+
+.srm-select {
+  background: url('../../assets/arrow.png') no-repeat 96%;
+  -webkit-appearance: none;
+  padding: 15px 30px 15px 15px;
+  margin-left: 10px;
+}
+
+.srm-select-vision {
+    border: 2px solid #a2cbe8;
+    padding: 11px 30px 13px 13px;
+}
+
+.login-container {
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #04233c;
+  padding-left: 15px;
+}
+
+.login-container .srm-select-login,
+.login-container .srm-alert {
+  display: inline-block;
+  vertical-align: middle;
+  color: #fff;
+}
+
+.srm-select.srm-select-login { background: url('../../assets/arrow-bg.png') no-repeat 96%; }
+
+.icon-alert {
+  width: 15px;
+  height: 15px;
+}
+
+.srm-alert {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    background-color: #4598d2;
+    text-align: center;
+    padding: 15px;
+}
+
+.srm-alert-container {
+    position: relative;
+}
+
+.qty-alert {
+    width: 15px;
+    height: 15px;
+    display: block;
+    position: absolute;
+    top: -8px;
+    right: -6px;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 1px 1px 1px 0px #10101047;
+}

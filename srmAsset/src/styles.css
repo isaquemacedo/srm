@@ -5,10 +5,19 @@ body, head, * {
   font-family: 'Montserrat', sans-serif;
 }
 
-input, textarea {
+input, textarea, select {
   margin: 0;
   padding: 0;
   border: 0;
+  outline: 0;
 }
 
 a { text-decoration: none;}
+
+.srm-structure {
+    display: inline-block;
+    vertical-align: top;
+}
+
+srm-menu.srm-structure {width: 15%;}
+srm-header.srm-structure {width: 84%;}
