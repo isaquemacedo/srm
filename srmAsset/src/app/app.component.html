@@ -4,12 +4,13 @@
   <div class="content-wrapper">
     <srm-menu></srm-menu>
 
-    <div class="container menu-active">
+    <div class="container" [class.menu-active]="menuActive">
 
       <div class="content">
         <router-outlet></router-outlet>
       </div>
-      
+      <a class="show-menu" [class.menu-active]="menuActive" (click)="toggleMenu()" href="javascript:void(0);"></a>
+
     </div>
   </div>
 

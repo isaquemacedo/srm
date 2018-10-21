@@ -1,55 +1,70 @@
+.srm-menu {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 220px;
+  background-color: #04233c;
+  z-index: 2;
+  opacity: 0;
+  border-right: 1px solid #788895;
+  transition: all 0.3s linear;
+  left: -500px;
+}
+
 .srm-menu.menu-active {
+  opacity: 1;
+  left: 0;
   display: block !important;
 }
 
-.srm-menu {
-    display: none;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 220px;
-    background-color: #04233c;
-    z-index: 2;
-    border-right: 1px solid #788895;
-}
-
 .srm-search {
-    display: block;
-    width: 100%;
-    background-color: #fff;
-    padding: 10px 5px;
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 5px;
 }
 
 .srm-input-search {
-    display: inline-block;
-    width: 170px;
-    height: 50px;
-    vertical-align: middle;
-    outline: 0 !important;
+  display: inline-block;
+  width: 170px;
+  height: 50px;
+  vertical-align: middle;
+  outline: 0 !important;
 }
 
-.srm-input-search::-webkit-input-placeholder { text-align: right; }
-.srm-input-search:-moz-placeholder { text-align: center; }
-.srm-input-search::-moz-placeholder { text-align: center; }
-.srm-input-search:-ms-input-placeholder { text-align: center; }
+.srm-input-search::-webkit-input-placeholder {
+  text-align: right;
+}
+
+.srm-input-search:-moz-placeholder {
+  text-align: center;
+}
+
+.srm-input-search::-moz-placeholder {
+  text-align: center;
+}
+
+.srm-input-search:-ms-input-placeholder {
+  text-align: center;
+}
 
 .srm-btn-search {
-    display: inline-block;
-    width: 30px;
-    height: 50px;
-    position: relative;
-    padding: 15px 0px 15px 10px;
-    vertical-align: middle;
+  display: inline-block;
+  width: 30px;
+  height: 50px;
+  position: relative;
+  padding: 15px 0px 15px 10px;
+  vertical-align: middle;
 }
 
 .srm-menu-items {
-    color: #c6ced4;
-    display: block;
-    padding: 10px;
-    text-align: left;
-    height: 55px;
-    position: relative;
-    border-bottom: 2px solid #4598d2;
+  color: #c6ced4;
+  display: block;
+  padding: 10px;
+  text-align: left;
+  height: 55px;
+  position: relative;
+  border-bottom: 2px solid #4598d2;
 }
 
 .srm-menu-text {
@@ -66,26 +81,15 @@
 }
 
 .srm-menu-items:before {
-    content: '';
-    position: absolute;
-    right: -1px;
-    top: 50%;
-    margin-top: -10px;
-    width: 0;
-    height: 0;
-    display: block;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid #ecedee;
-}
-
-.show-menu {
-    color: #fff;
-    position: absolute;
-    bottom: 30px;
-    display: block;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    text-align: center;
+  content: '';
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  margin-top: -10px;
+  width: 0;
+  height: 0;
+  display: block;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #ecedee;
 }
