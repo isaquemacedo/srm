@@ -12,13 +12,17 @@ import { ManagementComponent } from './management/management.component';
 
 // Injeções
 import { MenuService } from './menu/menu.service';
+import { ReceivablesComponent } from './receivables/receivables.component';
+import { AccountDigitalComponent } from './account-digital/account-digital.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     MenuComponent,
-    ManagementComponent
+    ManagementComponent,
+    ReceivablesComponent,
+    AccountDigitalComponent
   ],
   imports: [
     BrowserModule,

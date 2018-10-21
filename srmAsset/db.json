@@ -3,17 +3,17 @@
 		{
 			"icon": "../../assets/icon-management.png",
 			"name": "Painel de Gestão",
-			"route": "'/'"
+			"route": ""
 		},
 		{
 			"icon": "../../assets/icon-account-digital.png",
 			"name": "Conta Digital",
-			"route": "'/'"
+			"route": "account-digital"
 		},
 		{
 			"icon": "../../assets/icon-receivables.png",
 			"name": "Ant. de Recebiveis",
-			"route": "'/'"
+			"route": "receivables"
 		}
 	]
 }
