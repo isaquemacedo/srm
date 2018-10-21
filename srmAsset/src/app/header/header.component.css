@@ -72,3 +72,26 @@
     -webkit-box-shadow: 1px 1px 1px 0px #10101047;
     box-shadow: 1px 1px 1px 0px #10101047;
 }
+
+@media (max-width: 768px) {
+  .srm-header-container {
+    height: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo,
+  .srm-header-actions {
+    float: none;
+    display: block;
+  }
+
+  .logo { margin: 10px auto; }
+
+  .header-title,
+  .srm-select-simple-border {
+      display: inline-block;
+      font-size: 12px;
+      margin: 10px auto;
+  }
+}

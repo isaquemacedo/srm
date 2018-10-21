@@ -34,3 +34,7 @@
   left: 230px;
   transform: rotate(180deg);
 }
+
+@media (max-width: 768px) {
+  .content { padding: 5px; }
+}
