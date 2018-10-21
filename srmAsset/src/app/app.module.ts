@@ -9,11 +9,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { ManagementComponent } from './management/management.component';
+import { ReceivablesComponent } from './receivables/receivables.component';
+import { AccountDigitalComponent } from './account-digital/account-digital.component';
 
 // Injeções
 import { MenuService } from './menu/menu.service';
-import { ReceivablesComponent } from './receivables/receivables.component';
-import { AccountDigitalComponent } from './account-digital/account-digital.component';
 
 @NgModule({
   declarations: [

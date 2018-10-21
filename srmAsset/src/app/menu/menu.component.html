@@ -7,11 +7,13 @@
   </div>
 
   <nav class="srm-menu-container">
-    <div *ngFor="let item of menuItems" >
-      <a class="srm-menu-items" routerLink="/{{item.route}}">
-        <img class="srm-icons" [src]="item.icon" alt="">
-        <span class="srm-menu-text">{{item.name}}</span>
-      </a>
+    <div *ngFor="let item of menuItems">
+      <div routerLinkActive="active">
+        <a class="srm-menu-items" routerLink="/{{item.route}}">
+          <img class="srm-icons" [src]="item.icon" alt="">
+          <span class="srm-menu-text">{{item.name}}</span>
+        </a>
+      </div>
     </div>
   </nav>
 </div>
