@@ -3,17 +3,25 @@
 		{
 			"icon": "../../assets/icon-management.png",
 			"name": "Painel de Gestão",
-			"route": ""
+			"route": "'/'"
 		},
 		{
 			"icon": "../../assets/icon-account-digital.png",
 			"name": "Conta Digital",
-			"route": "account-digital"
+			"route": "'/'"
 		},
 		{
 			"icon": "../../assets/icon-receivables.png",
 			"name": "Ant. de Recebiveis",
-			"route": "receivables"
+			"route": "'/'"
 		}
+	],
+	"notesCanceled": [
+		{ "action": "Extortar valores" },
+		{ "action": "Analisar motivos" }
+	],
+	"digitalSignature": [
+		{ "action": "Análise de Crédito" },
+		{ "action": "Cartões" }
 	]
 }

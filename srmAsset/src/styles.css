@@ -173,15 +173,19 @@ ul, li {
     margin-right: 0;
 }
 
-.card-alerts .card-items { min-width: 100%; }
+.card-alerts .card-items {
+  min-width: 100%;
+  padding: 0px 30px 30px 30px;
+}
 
 .card-alerts .card-items-groups {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
-    padding: 10px 0;
+    padding: 0;
     border-bottom: 1px solid #f0f0f1;
+    height: 70px;
 }
 
 .card-items .card-items-groups:last-child { border-bottom: 0;}

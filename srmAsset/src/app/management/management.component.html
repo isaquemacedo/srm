@@ -59,20 +59,19 @@
           <div class="card-items">
             <div class="card-items-groups">
               <span class="card-group-value srm-text">23 Notas Canceladas</span>
-              <select class="srm-select srm-select-simple-border">
-                <option value="">Ações</option>
-              </select>
             </div>
             <div class="card-items-groups">
               <span class="card-group-value srm-text">13 Notas Canceladas</span>
               <select class="srm-select srm-select-simple-border">
-                <option value="">Ações</option>
+                <option value="" disabled  selected>Ações</option>
+                <option *ngFor="let note of notesCanceled" value="{{action}}" >{{note.action}}</option>
               </select>
             </div>
             <div class="card-items-groups">
               <span class="card-group-value srm-text">7 Assinaturas Digital</span>
               <select class="srm-select srm-select-simple-border">
-                <option value="">Ações</option>
+                <option value="" disabled  selected>Ações</option>
+                <option *ngFor="let digital of digitalSignature" value="{{action}}" >{{digital.action}}</option>
               </select>
             </div>
           </div>

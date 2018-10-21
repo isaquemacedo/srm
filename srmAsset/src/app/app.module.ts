@@ -14,6 +14,7 @@ import { AccountDigitalComponent } from './account-digital/account-digital.compo
 
 // Injeções
 import { MenuService } from './menu/menu.service';
+import { ManagementService } from './management/management.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,7 @@ import { MenuService } from './menu/menu.service';
 
     RouterModule.forRoot(ROUTES)
   ],
-  providers: [MenuService],
+  providers: [MenuService, ManagementService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
