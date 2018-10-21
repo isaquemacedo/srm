@@ -93,3 +93,10 @@
   border-bottom: 10px solid transparent;
   border-right: 10px solid #ecedee;
 }
+
+@media (max-width: 768px) {
+  .srm-menu.menu-active {
+    position: fixed;
+    z-index: 5;
+  }
+}

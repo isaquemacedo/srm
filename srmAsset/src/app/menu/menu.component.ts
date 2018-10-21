@@ -1,5 +1,8 @@
 import { Component, OnInit, Input } from '@angular/core';
 
+import { MenuItems } from './menuItems.model';
+import { MenuService } from './menu.service';
+
 @Component({
   selector: 'srm-menu',
   templateUrl: './menu.component.html',
@@ -8,9 +11,13 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MenuComponent implements OnInit {
   @Input() menuActive: boolean;
 
-  constructor() { }
+  menuItems: MenuItems[]
+
+  constructor(private menuService: MenuService) { }
 
   ngOnInit() {
+    this.menuService.menuItems()
+    .subscribe(menuItems => this.menuItems = menuItems)
   }
 
 }

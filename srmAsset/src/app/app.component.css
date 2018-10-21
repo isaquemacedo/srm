@@ -37,4 +37,6 @@
 
 @media (max-width: 768px) {
   .content { padding: 5px; }
+
+  .container.menu-active { padding: 0; }
 }

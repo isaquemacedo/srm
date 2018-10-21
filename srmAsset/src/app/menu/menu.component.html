@@ -7,17 +7,9 @@
   </div>
 
   <nav class="srm-menu-container">
-    <a href="javascript: void(0);" class="srm-menu-items">
-      <img class="srm-icons" src="../../assets/icon-management.png" alt="">
-      <span class="srm-menu-text">Painel de Gestão</span>
-    </a>
-    <a href="javascript: void(0);" class="srm-menu-items">
-      <img class="srm-icons" src="../../assets/icon-account-digital.png" alt="">
-      <span class="srm-menu-text">Conta Digital</span>
-    </a>
-    <a href="javascript: void(0);" class="srm-menu-items">
-      <img class="srm-icons" src="../../assets/icon-receivables.png" alt="">
-      <span class="srm-menu-text">Ant. de Recebiveis <span class="srm-menu-subtex"> <img class="icon-item" src="../../assets/menu-arrow.png" alt=""> </span> </span>
+    <a href="javascript: void(0);" *ngFor="let item of menuItems" class="srm-menu-items">
+      <img class="srm-icons" [src]="item.icon" alt="">
+      <span class="srm-menu-text">{{item.name}}</span>
     </a>
   </nav>
 </div>

@@ -18,7 +18,7 @@ export class AppComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    this.menuActive = false;
+    this.menuActive = true;
     this.menu.menuActive = this.menuActive;
     this.header.menuActive = this.menuActive;
   }

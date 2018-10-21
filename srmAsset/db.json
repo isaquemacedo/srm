@@ -1,0 +1,19 @@
+{
+	"menu": [
+		{
+			"icon": "../../assets/icon-management.png",
+			"name": "Painel de Gestão",
+			"route": "'/'"
+		},
+		{
+			"icon": "../../assets/icon-account-digital.png",
+			"name": "Conta Digital",
+			"route": "'/'"
+		},
+		{
+			"icon": "../../assets/icon-receivables.png",
+			"name": "Ant. de Recebiveis",
+			"route": "'/'"
+		}
+	]
+}

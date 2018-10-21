@@ -94,4 +94,6 @@
       font-size: 12px;
       margin: 10px auto;
   }
+
+  .srm-header.menu-active { padding-left: 0; }
 }
